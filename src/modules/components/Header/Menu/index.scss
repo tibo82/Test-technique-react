@@ -1,0 +1,13 @@
+.MenuHeader li {
+  padding: 4px;
+  display: inline;
+  list-style-type: none;
+}
+.MenuHeader li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.MenuHeader li a:hover {
+  text-decoration: underline;
+}

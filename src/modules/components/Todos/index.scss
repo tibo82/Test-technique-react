@@ -1,0 +1,42 @@
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TodoCustomButton {
+  border-style: hidden;
+  background-color: transparent;
+}
+.TodoContent {
+  width: 100%;
+  //border: 1px solid #ccc;
+}
+.TodoContentTextarea {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 5em;
+}
+.buttonContent {
+  margin: 0;
+  text-align: left;
+}
+
+.TodoAddElements {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ItemsOpenCounter {
+  margin-bottom: 3%;
+}
+
+.ListItems {
+  display: flex;
+  justify-content: space-between;
+}
+.ItemAndCloser {
+  display: flex;
+  justify-content: space-between;
+}
